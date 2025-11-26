@@ -1,124 +1,17 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ちゃわん娘</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ボタンで音を鳴らす</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- ヘッダー -->
-    <header>
-        <img src="img/rogo.png" alt="ちゃわん娘" class="logo-img">
-        <nav>
-            <ul>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- メインコンテンツ -->
-    <main>
-        <div class="left-column">
-            <img src="img/tya.jpg" alt="ちゃわん娘の画像" class="sidebar-img">
+  <button id="btn">音を鳴らす</button>
 
-            <a href="https://x.com/chawanko1997" class="sidebar-link x-link"><i class="fab fa-x-twitter"></i> ちゃわん娘 Xアカウント</a>
+  <audio id="sound" src="god.mp3" preload="auto"></audio>
 
-            <a href="https://www.instagram.com/chawanko1997/" class="sidebar-link instagram-link"><i class="fab fa-instagram"></i> ちゃわん娘 Instagram</a>
-
-            <div class="card sidebar">
-                <a href="https://www.youtube.com/watch?v=cjrz07ColJM" target="_blank">
-                    <img src="https://img.youtube.com/vi/cjrz07ColJM/hqdefault.jpg" alt="YouTube Video" class="youtube-thumb">
-                </a>
-                <h2><i class="fas fa-star"></i> メンバー募集中！</h2>
-                <p>随時メンバーを募集中です！<br>
-                限定参加も大歓迎👌<br>
-                <br>
-                とにかく踊るのが好きな方!!<br>
-                その気持ちがあれば大丈夫です😌💫<br>
-                チーム一団となり楽しく踊っています<br>
-                <br>
-                未経験🆗 男女問いません<br>
-                幅広い年齢層が精一杯頑張っています<br>
-                気になる方はTwitterのDMお願いします📩<br>
-                <br>
-                様々なイベントに参加します‼︎<br>
-                <br>
-                是非、見学や体験お待ちしております☺️</p>
-                <form action="#" class="contact-form">
-                    <label for="name">名前</label>
-                    <input type="text" id="name" name="name" placeholder="あなたの名前" required>
-                    <label for="email">メールアドレス</label>
-                    <input type="email" id="email" name="email" placeholder="your@email.com" required>
-                    <label for="message">メッセージ</label>
-                    <textarea id="message" name="message" placeholder="メンバー募集についてのご質問" rows="4" required></textarea>
-                    <button type="submit" class="btn">送信</button>
-                </form>
-            </div>
-        </div>
-        <div class="right-column">
-            <div class="card">
-                <img src="img/1000_560.jpg" alt="メインコンテンツの画像" class="card-img">
-                <h2><i class="fas fa-star"></i> ちゃわん娘とは</h2>
-                <p>地元土岐市で結成されたよさこい（鳴子踊り）チームです。<br><br>小学生から高齢者まで幅広い年代で構成されています。<br><br>1997年に結成して20年超え‼︎「土岐の陶器は日本一」を掛け声に地元土岐市を盛り上げるべく<br><br>様々なイベントへの参加や福祉施設慰問などを通じて土岐市をPRしています。</p>
-                
-                <h2><i class="fas fa-star"></i> 新作演舞<br> 「toki make love it 2023」が完成！</h2>
-                <p>ちゃわん娘の初オリジナル曲の「toki make love it」振付を一新しました<br><br>SHOさん @shoo_fk (twitter)に 新たに振付を依頼して、今までのちゃわん娘に無い演舞が完成致しました👏<br><br>お時間も無くお忙しい中、また年齢層の幅があってもそれぞれが輝ける振付を考えて下さり本当に有難う御座いました‼︎<br><br>次回も宜しくお願い致します🙇‍♀️</p>
-
-<table class="practice-table">
-                    <thead>
-                        <tr>
-                            <th colspan="2">練習場所</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>日時</td>
-                            <td>毎週火曜日</td>
-                        </tr>
-                        <tr>
-                            <td>練習場所</td>
-                            <td>土岐市泉西公民館</td>
-                        </tr>
-                        <tr>
-                            <td>住所</td>
-                            <td>岐阜県土岐市泉ヶ丘1-176</td>
-                        </tr>
-                        <tr>
-                            <td>電話番号</td>
-                            <td>☎︎0572-53-0288</td>
-                        </tr>
-                        <tr>
-                            <td>練習時間</td>
-                            <td>19:00-21:00</td>
-                        </tr>
-                        <tr>
-                            <td>持ち物</td>
-                            <td>
-                                動きやすい格好<br>
-                                運動靴<br>
-                                タオル<br>
-                                飲み物 など
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>会費</td>
-                            <td>1500円/月</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.439185608984!2d137.17374429999998!3d35.3695618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600340564b71815d%3A0x39be3f2e8ab7944f!2z5Zyf5bKQ5biCIOazieilv-WFrOawkemkqA!5e0!3m2!1sja!2sjp!4v1755357636871!5m2!1sja!2sjp" class="google-map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </main>
-
-    <!-- フッター -->
-    <footer>
-        <p>&copy; 2025 ちゃわん娘. All rights reserved.</p>
-        <ul>
-            <li><a href="#privacy">プライバシーポリシー</a></li>
-            <li><a href="#terms">利用規約</a></li>
-        </ul>
-    </footer>
+  <script src="script.js"></script>
 </body>
 </html>
